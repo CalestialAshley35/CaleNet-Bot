@@ -30,6 +30,3 @@ def youtube():
 
 if __name__ == "__main__":
     app()
-
-------
-Can u make a repo about this name: CaleNet-Bot 
