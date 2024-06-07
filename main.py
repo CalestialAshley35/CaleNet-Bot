@@ -5,16 +5,16 @@ import typer
 app = typer.Typer()
 
 @app.command()
-def deez():
-    typer.echo("nuts")
+def version():
+    typer.echo("the latest version is 0.0.1")
 
 @app.command()
-def rungpt():
+def Rungpt():
     typer.echo("go to chat.openai.com")
 
 @app.command()
-def installCake():
-    typer.echo("go to cake.com")
+def Content_Store():
+    typer.echo("Replit = python main.py replit, google = python main.py google, youtube = python main.py youtube")
 
 @app.command()
 def google():
@@ -27,6 +27,14 @@ def replit():
 @app.command()
 def youtube():
     typer.echo("go to youtube.com")
+
+@app.command()
+def about():
+    typer.echo("CaleNet Bot is Developed by Calestial Ashley")
+    
+@app.command()
+def language():
+    typer.echo("Currently Have English And Using English")
 
 if __name__ == "__main__":
     app()
